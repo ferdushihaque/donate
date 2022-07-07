@@ -6,8 +6,8 @@ body{
 .container{
     background-image: url(images/donation13.jpg);
     background-size: cover;
-    background-repeat: no no-repeat;
-    height: 300px;
+    background-repeat:  no-repeat;
+    height: 550px;
     opacity: 4;
 }
 .contain{
@@ -19,6 +19,15 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    line-height: 3;
+    line-height:1;
+
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: #fff;
 
 }
