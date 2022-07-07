@@ -79,6 +79,10 @@ h2{
     margin-left: 60px;
     margin-right: 60px;
     padding: 20px 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .coloum{
     display: flex;
@@ -88,5 +92,30 @@ h2{
     align-items: center;
 }
 
-    
 
+
+
+
+.form-box{
+    padding: 50px;
+    border-radius: 3px;
+    background-color: #ccf;
+    box-shadow: 3px 3px 8px #c7c4cc -3px -3px 8px #fff;
+
+}
+.form-box input{
+    font-size: 20px;
+    color: black;
+    padding: 15px 10px;
+    border: none;
+    background-color: #fff;
+
+}
+
+.foot{
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
